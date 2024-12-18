@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.form-container {
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    gap: 10px;
+}
+
+select, input, button {
+    padding: 10px;
+}
+
+.transactions-container {
+    margin-top: 20px;
+}
+
+.transaction {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.transaction.income {
+    background-color: #e6f3e6;
+}
+
+.transaction.expense {
+    background-color: #f3e6e6;
+}
